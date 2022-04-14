@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e7bec8c2118ce6f43b0f4def04540a1a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Aquifer
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a371c7ff8cd4cb74ab9223abea9ba8de, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

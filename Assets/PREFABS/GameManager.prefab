@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1624415841767020020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624415841767020018}
+  - component: {fileID: 1624415841767020021}
+  - component: {fileID: 1624415841767020019}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624415841767020018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624415841767020020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624415841767020021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624415841767020020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be64ee4ca925901418c310931b018a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textureSpeed: 20
+  obstacleSpeed: 8
+  score: 0
+  bestScore: 0
+  scoreText: {fileID: 0}
+  speedText: {fileID: 0}
+  speedUpText: {fileID: 0}
+  nextSpeedUp: 0
+  scoreUpText: {fileID: 0}
+--- !u!114 &1624415841767020019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624415841767020020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be52f73b8dd760a439f1c404c4ae2eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 1871673920417970503, guid: a891d6275ea7eaa47ae922fc8405d3b2, type: 3}
+  - {fileID: 4468345768586742930, guid: f252decb33fd010448729feff80f0b3c, type: 3}
+  - {fileID: 4468345768586742930, guid: f252decb33fd010448729feff80f0b3c, type: 3}
+  - {fileID: 3313972527219911659, guid: 6f5cbc6d897386a459cad771748fab8d, type: 3}
+  - {fileID: 4946074951075414340, guid: 85755e30e9a4aa9418f265ced31a6f7f, type: 3}
+  - {fileID: 3426403444728368801, guid: b2e7a28175b2dfc4dad5eb109a89c260, type: 3}
+  - {fileID: 4495435671757464687, guid: bdbf31cc4d737df4ca47dee11b7ef76d, type: 3}
+  - {fileID: 2407606337473838460, guid: e9ee4c02595e3d240819aa4e54798d34, type: 3}
+  - {fileID: 5884854142456394276, guid: 03896d619295e58448cd5f4b0fc6b4d9, type: 3}
+  - {fileID: 8559118793173116815, guid: 9e5da220623ca3d4dafeeeef0685ded0, type: 3}
+  - {fileID: 7064167241248650093, guid: 4be48f08385882047a5e1950a1b9937b, type: 3}
+  - {fileID: 5378627715338362211, guid: 30fe8614e760dd2479e699a57a83fe8b, type: 3}
+  nextObstacle: {fileID: 0}
