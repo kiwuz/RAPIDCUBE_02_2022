@@ -1,6 +1,6 @@
 # ABOUT THE PROJECT
 
-This game is a *VELOCIVOX* remake, made with an educational purposes during my third year of studying programming. Finished in april 2022.
+This game is a *VELOCIBOX* remake, made with an educational purposes during my third year of studying programming. Finished in april 2022.
 
 ![rapidcube gif](https://user-images.githubusercontent.com/49866616/163461083-3cfc8c01-39b0-4f57-8b85-7b37d8afabbe.gif)
 
